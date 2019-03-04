@@ -1,0 +1,21 @@
+开始界面：
+	窗体：分为５步
+	添加两个按钮　－－开始和结束	
+游戏主要角色：
+	Bullet	x y r buimg
+	Hero    x y r allblood score heroimg
+	enemyplane x y r speed enemyimg　epnum
+	图片的路径默认在当前包之下
+	状态模式　备忘录模式　单件模式
+游戏主面板：
+	全屏界面
+	如何在面板中绘制一个字母？
+	多线程的实现：
+		继承Thread类　　自定义一个类，继承Thread类;重写run方法;创建该类的对象;调用start方法
+		实现Runnable接口		自定义一个类,实现Runnable接口;重写run方法;创建Thread对象,将该类对象传进去;调用start方法
+
+	实现鼠标监听
+		实现MouseMotionListener接口
+		重写方法
+
+	鼠标单机　　ActionListener
